@@ -6,3 +6,5 @@ bash$ echo $BASH<br>/bin/bash</br>
 ### Process ID of the current instance of Bash
 <br>$BASHPID</br>
 
+## Typing variables: declare or typeset
+
