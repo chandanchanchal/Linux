@@ -19,7 +19,7 @@ echo "Number = $number"     # Number = 3
 
 number=three
 echo "Number = $number"     # Number = 0
-# Tries to evaluate the string "three" as an integer.
+##### Tries to evaluate the string "three" as an integer.
 
  
 
