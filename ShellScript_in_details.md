@@ -33,6 +33,11 @@ function my_func() {
 my_func
 echo $?
 
+function add_numbers() {
+    local sum=$(( $1 + $2 ))
+    return $sum
+}
+
 
 
 
