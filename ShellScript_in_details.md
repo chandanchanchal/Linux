@@ -39,6 +39,13 @@ function add_numbers() {
 }
 
 
+function return_multiple() {
+    local array=("Hello" "World")
+    echo ${array[@]}
+}
+
+
+
 
 
  
