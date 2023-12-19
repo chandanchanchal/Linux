@@ -26,5 +26,15 @@ echo "Number = $number"     # Number = 0
 ##### <br>-x export     This declares a variable as available for exporting outside the environment of the script itself.</br>
 ##### <br>x var=$value The declare command permits assigning a value to a variable in the same statement as setting its properties</br>
 
+
+function my_func() {
+    return 10
+}
+my_func
+echo $?
+
+
+
+
  
 
