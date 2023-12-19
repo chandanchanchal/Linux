@@ -529,6 +529,4 @@
 
 * ![check_disk_space2](./images/check_disk_space2.png)
 
-### The path to the Bash binary itself
-bash$ echo $BASH
-/bin/bash
+
