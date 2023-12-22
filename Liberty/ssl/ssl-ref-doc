@@ -1,0 +1,12 @@
+securityUtility encode --encoding=aes GiveMeLiberty
+
+securityUtility createSSLCertificate 
+--server=myserver 
+--password=mypassword 
+--validity=365
+--subject=CN=mycompany,O=myOrg,C=myCountry
+securityUtility help createSSLCertificate
+
+#########################------Below is the ref-link---#######################
+https://www.ibm.com/docs/en/was-liberty/base?topic=applications-securityutility-command
+###################################################
